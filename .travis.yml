@@ -21,7 +21,7 @@ services:
   - redis-server
 
 before_install:
-  - $CXX --version
+  - $CXX --version 
 
 before_script:
   - npm install -g gulp
